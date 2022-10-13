@@ -1,0 +1,125 @@
+m255
+K4
+z2
+!s11f vlog 2020.1_1 2020.03, Mar  4 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dtv782/engr-ece/CME 435/Sept 13 Prelab/cme435_ex1
+T_opt
+!s110 1663110656
+V]?PjTCQzYFUUfL80NdahZ0
+04 10 4 work tbench_top fast 0
+=1-b07b25240ed2-63210e00-c14e2-39871
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.1_1;71
+R0
+vex1_dut
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1663452539
+!i10b 1
+!s100 JRAFod?CP=N]L2>7SgAj20
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaD=??kPXEJNW=:CADjXDO2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+S1
+R0
+Z6 w1631507814
+8dut/ex1_dut.svp
+Fdut/ex1_dut.svp
+!i122 25
+L0 1 26
+Z7 OL;L;2020.1_1;71
+r1
+!s85 0
+31
+Z8 !s108 1663452539.000000
+!s107 verification/tbench_top.svp|dut/ex1_slave.svp|dut/ex1_master.svp|dut/ex1_dut.svp|
+Z9 !s90 -f|script/ex1.f|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vex1_master_d
+R2
+R3
+!i10b 1
+!s100 4gnbd?9Rf9NEjNE;Xjl833
+R4
+I9]a3ilD9WEC]hRgOcf_<b3
+R5
+!i119 1
+S1
+R0
+R6
+8dut/ex1_master.svp
+Fdut/ex1_master.svp
+!i122 25
+L0 1 45
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 verification/tbench_top.svp|dut/ex1_slave.svp|dut/ex1_master.svp|dut/ex1_dut.svp|
+R9
+!i113 0
+R10
+R1
+vex1_slave
+R2
+R3
+!i10b 1
+!s100 ioOKZaEQiBddB9Z0ZkV^50
+R4
+IWk>o<7C7JT_1>[=R6DC>51
+R5
+!i119 1
+S1
+R0
+R6
+8dut/ex1_slave.svp
+Fdut/ex1_slave.svp
+!i122 25
+L0 1 32
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vtbench_top
+R2
+R3
+!i10b 1
+!s100 cYQ3=G0NJf70gJIcl[E4U0
+R4
+I;MKK:k6`meGlz1VeSPfie1
+R5
+!i119 1
+S1
+R0
+w1631508264
+8verification/tbench_top.svp
+Fverification/tbench_top.svp
+!i122 25
+L0 1 14
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1

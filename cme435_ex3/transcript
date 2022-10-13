@@ -1,0 +1,135 @@
+# do script/cme435_ex3.do
+# tbench_top
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 16:36:48 on Oct 03,2022
+# vlog -f script/cme435_ex3.f 
+# -- Compiling module alu
+# ** Warning: ** while parsing file included at dut/dut_top.sv(1)
+# ** at dut/alu.svp(1): (vlog-2275) Existing module 'alu' will be overwritten.
+# -- Compiling module alu
+# -- Compiling module dut_top
+# -- Compiling interface intf
+# ** Warning: ** while parsing file included at verification/tbench_top.sv(8)
+# ** while parsing file included at ./verification/../dut/dut_top.sv(1)
+# ** at ./verification/../dut/alu.svp(1): (vlog-2275) Existing module 'alu' will be overwritten.
+# ** Warning: ** while parsing file included at verification/tbench_top.sv(8)
+# ** at ./verification/../dut/dut_top.sv(2): (vlog-2275) Existing module 'dut_top' will be overwritten.
+# -- Compiling package tbench_top_sv_unit
+# -- Compiling module alu
+# -- Compiling module dut_top
+# -- Compiling program testbench
+# -- Compiling module tbench_top
+# -- Compiling package test_transaction_class_sv_unit
+# -- Compiling program test_transaction_class
+# 
+# Top level modules:
+# 	tbench_top
+# 	test_transaction_class
+# End time: 16:36:48 on Oct 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vsim tbench_top 
+# Start time: 16:36:48 on Oct 03,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tbench_top_sv_unit(fast)
+# Loading work.tbench_top(fast)
+# Loading work.testbench(fast)
+# Loading work.intf(fast)
+# [Testbench]: start of testcase(s) at 0
+# [Environment]: Start of run() at 0
+# [Environment]: Start of pre_test() at 0
+# [Environment]: Reset started at 0
+# [Environment]: Reset ended at 6
+# [Environment]: End of pre_test() at 6
+# [Environment]: Start of test() at 6
+# ----------------------------
+# 	[Generator]: a = 15, b = 1
+# 	[Generator]: op = 0, y = 0
+# ----------------------------
+# 	[Generator]: a = 12, b = 6
+# 	[Generator]: op = 0, y = 0
+# ----------------------------
+# 	[Generator]: a = 5, b = 5
+# 	[Generator]: op = 0, y = 0
+# ----------------------------
+# 	[Generator]: a = 6, b = 0
+# 	[Generator]: op = 0, y = 0
+# ----------------------------
+# 	[monitor]: a = 0, b = 0
+# 	[monitor]: op = 0, y = 16
+# ----------------------------
+# 	[Scoreboard]: a = 0, b = 0
+# 	[Scoreboard]: op = 0, y = 16
+# [Scoreboard]: Error:  
+# Expected result:     0 Received:    16
+# ----------------------------
+# 	[Driver]: a = 15, b = 1
+# 	[Driver]: op = 0, y = 0
+# ----------------------------
+# 	[monitor]: a = 15, b = 1
+# 	[monitor]: op = 0, y = 16
+# ----------------------------
+# 	[Scoreboard]: a = 15, b = 1
+# 	[Scoreboard]: op = 0, y = 16
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: a = 12, b = 6
+# 	[Driver]: op = 0, y = 0
+# ----------------------------
+# 	[monitor]: a = 12, b = 6
+# 	[monitor]: op = 0, y = 18
+# ----------------------------
+# 	[Scoreboard]: a = 12, b = 6
+# 	[Scoreboard]: op = 0, y = 18
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[monitor]: a = 12, b = 6
+# 	[monitor]: op = 0, y = 10
+# ----------------------------
+# 	[Scoreboard]: a = 12, b = 6
+# 	[Scoreboard]: op = 0, y = 10
+# [Scoreboard]: Error:  
+# Expected result:     2 Received:    10
+# ----------------------------
+# 	[Driver]: a = 5, b = 5
+# 	[Driver]: op = 0, y = 0
+# ----------------------------
+# 	[monitor]: a = 5, b = 5
+# 	[monitor]: op = 0, y = 10
+# ----------------------------
+# 	[Scoreboard]: a = 5, b = 5
+# 	[Scoreboard]: op = 0, y = 10
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: a = 6, b = 0
+# 	[Driver]: op = 0, y = 0
+# ----------------------------
+# 	[monitor]: a = 6, b = 0
+# 	[monitor]: op = 0, y = 6
+# ----------------------------
+# 	[Scoreboard]: a = 6, b = 0
+# 	[Scoreboard]: op = 0, y = 6
+# [Scoreboard]: Pass
+# [Environment]: End of test() at 125
+# [Environment]: Start of post_test() at 125
+# [Environment]: End of post_test() at 125
+# [Environment]: End of run() at 125
+# ** Note: $finish    : ./verification/environment.sv(83)
+#    Time: 125 ns  Iteration: 1  Instance: /tbench_top/test
+# [Testbench]: End of testcase(s) at                  125
+# End time: 16:36:49 on Oct 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

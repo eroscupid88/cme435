@@ -1,0 +1,35 @@
+module alu(
+  input wire         clk,
+  input wire         reset,  // asynchronous reset
+  input wire         en,     // enable
+  input wire         op,     // 0: addition. 1: subtraction
+  input wire   [3:0] a,      // input A  
+  input wire   [3:0] b,      // input B
+  output logic [7:0] y);     // output Y
+  
+`pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "QuestaSim" , encrypt_agent_info = "2019.2"
+`pragma protect key_keyowner = "Mentor Graphics Corporation" , key_keyname = "MGC-VERIF-SIM-RSA-2"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = ( enctype = "base64" , line_length = 64 , bytes = 256 )
+`pragma protect key_block
+JcjdjeMKQoSF5F3kuIiKgpEDerLQqz99dOKOxp3cwrNLl+9VKELnDfckLk3/nKkt
+EEr3TC0cchVkVeiX9voqNtZlWNguujNhYsy5sk7CRCtirpc9LT5vSnedhuSby15d
+rVaIPdgwMA6xDy9h4m1XES2/lptUkVqHDO9GZPmgXB84Kk1Nfp7Zg1MupWkAgGu9
+sNJqSTclHEev8aNvllndI8qb4pUcXtG3ydmWOaXMLGqGX7pM3b2CLt2PJJs5i87c
+/zEWAqPVOAPv4iLQ30cSVpq8+KOBaXAwiA7UAcMsbCHY1jgXau/+/TXGht/70EZq
+MGAWK3YNabqCBJQZZmoE6w==
+`pragma protect data_method = "aes128-cbc"
+`pragma protect encoding = ( enctype = "base64" , line_length = 64 , bytes = 384 )
+`pragma protect data_block
+D0fuuO9dLZgerz4g4JY/gcnKkn+WoIDcWO+YTm6dARasX7t88Z6hvXUEer9QRqRq
+0ynYdK9ywk0Eu0gdv+OGKxq5P36e4Q26pzvrTYp5P28egZm4harc1jmwUsjpJHYL
+8n23xc8GMtWb6z4QIOmhCHrB2fT5JeA2kaF/B1t2sYjGj+o5PjSerQCHXIRTmNMG
+Ab/rs1KHt97pp36tNx24rBN6K6R/YLLd1G6oc3xX7ubh2CwPZocmvMqYyS0CX0kW
+LLoWRT06q6+ToXQIy4I3eFpGnlfljC8UHSg+giScYdnyUwI+zyBmIqrza2kMRChS
+kj25PwI0BD3UEaYjRmr2/HLFRyusRgYXroIzsNgNExXx5d6sRTp31ELbTzR3BqGO
+ZO/J8uKQhGcKt5poaqm2CHxxcjTLB4OkcmWXd87Zp1IXyZminpSw8gZhk1lbc/xo
+hMgtikf0os85ODnfKIQHsJUxqbftetW5wIc35lZ6ZVt8wsidwW4g+8RuurV/dcUx
+`pragma protect end_protected
+endmodule

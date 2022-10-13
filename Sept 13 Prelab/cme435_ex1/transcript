@@ -1,0 +1,70 @@
+# do script/ex1_all.do
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 16:08:59 on Sep 17,2022
+# vlog -f script/ex1.f 
+# -- Compiling module ex1_dut
+# -- Compiling module ex1_master_d
+# -- Compiling module ex1_slave
+# -- Compiling module tbench_top
+# 
+# Top level modules:
+# 	tbench_top
+# End time: 16:08:59 on Sep 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# tbench_top
+# vsim tbench_top 
+# Start time: 16:08:59 on Sep 17,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tbench_top(fast)
+# core_clk=0,sys_reset_n=0,data_valid=x,addr=x,data=xxxxxxxx,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=0,data_valid=x,addr=x,data=xxxxxxxx,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=0,data_valid=x,addr=x,data=xxxxxxxx,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=0,data_valid=x,addr=x,data=xxxxxxxx,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=1,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=1,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=1,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=1,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=1,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=1,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=0,addr=1,data=00000050,rdata_out=xxxxxxxx
+# test failed,	w_data=00000050,	rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=0,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=0,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=0,addr=1,data=00000050,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=1,addr=2,data=00000100,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=1,addr=2,data=00000100,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=1,addr=2,data=00000100,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=1,addr=2,data=00000100,rdata_out=xxxxxxxx
+# core_clk=0,sys_reset_n=1,data_valid=1,addr=2,data=00000100,rdata_out=xxxxxxxx
+# core_clk=1,sys_reset_n=1,data_valid=1,addr=2,data=00000100,rdata_out=xxxxxxxx
+# test passed,	w_data=00000100,	rdata_out=00000100
+# core_clk=0,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=1,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=0,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=1,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=0,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=1,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=0,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=1,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=0,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# core_clk=1,sys_reset_n=1,data_valid=0,addr=2,data=00000100,rdata_out=00000100
+# ** Note: $stop    : verification/tbench_top.svp(19)
+#    Time: 150 ns  Iteration: 0  Instance: /tbench_top
+# Break in file verification/tbench_top.svp
+# End time: 16:08:59 on Sep 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

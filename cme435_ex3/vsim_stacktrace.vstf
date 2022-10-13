@@ -1,0 +1,69 @@
+# Current time Thu Sep 29 18:28:54 2022
+# Program = vsim
+# Id = "2020.1_1"
+# Version = "2020.03"
+# Date = "Mar  4 2020"
+# Platform = "linux_x86_64"
+# Signature = 60deb3f7bea283b7f564c03ffc57ec3b
+# 0    0x00000000010b51a0: '<unknown (@0x10b51a0)>'
+# 1    0x00000000010974a5: '<unknown (@0x10974a5)>'
+# 2    0x000000000077aac0: '<unknown (@0x77aac0)>'
+# 3    0x00007fefe4339cc4: './verification/generator.sv:25'
+# 4    0x00007fefe433b2d0: './verification/environment.sv:46'
+# 5    0x00007fefe433bdef: './verification/environment.sv:80'
+# 6    0x00007fefe433cc34: './verification/testbench.sv:12'
+# 7    0x00000000011ad73a: '<unknown (@0x11ad73a)>'
+# 8    0x00000000006534fc: '<unknown (@0x6534fc)>'
+# 9    0x00000000004f4734: '<unknown (@0x4f4734)>'
+# 10   0x0000000000691533: '<unknown (@0x691533)>'
+# 11   0x0000000000bc91b3: '<unknown (@0xbc91b3)>'
+# 12   0x0000000000bce11b: '<unknown (@0xbce11b)>'
+# 13   0x0000000000bcfe4e: '<unknown (@0xbcfe4e)>'
+# 14   0x0000000000e9a7fd: '<unknown (@0xe9a7fd)>'
+# 15   0x000000000161603d: '<unknown (@0x161603d)>'
+# 16   0x000000000161a496: '<unknown (@0x161a496)>'
+# 17   0x000000000161bb81: '<unknown (@0x161bb81)>'
+# 18   0x000000000161bee6: '<unknown (@0x161bee6)>'
+# 19   0x00000000010ec1d9: '<unknown (@0x10ec1d9)>'
+# 20   0x00000000016bbdef: '<unknown (@0x16bbdef)>'
+# 21   0x000000000170f957: '<unknown (@0x170f957)>'
+# 22   0x00000000016d2857: '<unknown (@0x16d2857)>'
+# 23   0x00000000016d2b39: '<unknown (@0x16d2b39)>'
+# 24   0x00000000014c9b6d: '<unknown (@0x14c9b6d)>'
+# 25   0x0000000000b994bc: '<unknown (@0xb994bc)>'
+# End of Stack Trace
+
+
+# Current time Thu Sep 29 18:30:26 2022
+# Program = vsim
+# Id = "2020.1_1"
+# Version = "2020.03"
+# Date = "Mar  4 2020"
+# Platform = "linux_x86_64"
+# Signature = 60deb3f7bea283b7f564c03ffc57ec3b
+# 0    0x00000000010b51a0: '<unknown (@0x10b51a0)>'
+# 1    0x00000000010974a5: '<unknown (@0x10974a5)>'
+# 2    0x000000000077aac0: '<unknown (@0x77aac0)>'
+# 3    0x00007fefe4339cb4: './verification/generator.sv:25'
+# 4    0x00007fefe433b44c: './verification/environment.sv:46'
+# 5    0x00000000011ad73a: '<unknown (@0x11ad73a)>'
+# 6    0x00000000004f4fdb: '<unknown (@0x4f4fdb)>'
+# 7    0x0000000000691533: '<unknown (@0x691533)>'
+# 8    0x0000000000bc91b3: '<unknown (@0xbc91b3)>'
+# 9    0x0000000000bce11b: '<unknown (@0xbce11b)>'
+# 10   0x0000000000bcfe4e: '<unknown (@0xbcfe4e)>'
+# 11   0x0000000000e9a7fd: '<unknown (@0xe9a7fd)>'
+# 12   0x000000000161603d: '<unknown (@0x161603d)>'
+# 13   0x000000000161a496: '<unknown (@0x161a496)>'
+# 14   0x000000000161bb81: '<unknown (@0x161bb81)>'
+# 15   0x000000000161bee6: '<unknown (@0x161bee6)>'
+# 16   0x00000000010ec1d9: '<unknown (@0x10ec1d9)>'
+# 17   0x00000000016bbdef: '<unknown (@0x16bbdef)>'
+# 18   0x000000000170f957: '<unknown (@0x170f957)>'
+# 19   0x00000000016d2857: '<unknown (@0x16d2857)>'
+# 20   0x00000000016d2b39: '<unknown (@0x16d2b39)>'
+# 21   0x00000000014c9b6d: '<unknown (@0x14c9b6d)>'
+# 22   0x0000000000b994bc: '<unknown (@0xb994bc)>'
+# End of Stack Trace
+
+
