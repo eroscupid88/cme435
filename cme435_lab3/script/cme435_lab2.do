@@ -8,7 +8,6 @@ if {! [file exists work]} {
   vlib work
 }
 
-
 vlog -f script/cme435_lab2.f
 puts "compiling..."
 vsim $tbench_top
