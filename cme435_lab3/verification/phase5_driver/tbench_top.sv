@@ -1,5 +1,4 @@
 `include "interface.sv"
-`include "transaction.sv"
 `include "driver.sv"
 `include "generator.sv"
 `include "environment.sv"

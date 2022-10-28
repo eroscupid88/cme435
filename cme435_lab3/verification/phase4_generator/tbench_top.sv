@@ -1,5 +1,5 @@
 `include "interface.sv"
-`include "transaction.sv"
+`include "lab3_pkg.sv"
 `include "generator.sv"
 `include "environment.sv"
 `include "../../dut/dut_top.sv"

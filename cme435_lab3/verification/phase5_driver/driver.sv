@@ -1,3 +1,4 @@
+import lab3_pkg::*;
 class driver;
     virtual intf vif;
 
@@ -11,7 +12,7 @@ class driver;
 
     task main;
         forever begin
-            transaction trans;
+            a_smaller_than_b_constraints trans;
             gen2driv.get(trans);
             @(posedge vif.clk);
             vif.alu_a_in <= trans.alu_a_in;

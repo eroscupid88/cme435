@@ -1,7 +1,8 @@
+import lab3_pkg::*;
 class generator;
-
+    
 //  declare transaction class
-    transaction trans;
+    a_bigger_than_b_constraints placeholder;
     //repeat count, to specify number of items to generate
     int repeat_count;
 
@@ -14,12 +15,12 @@ class generator;
 
     //main task to generate (create and randomize) transaction packets
     task main();
+        placeholder = new();
         repeat (repeat_count) begin
-            trans = new();
-            if(!trans.randomize()) $fatal("Gen:: trans randomization failed");
-            trans.display("[Generator]");
-            trans.alu_opcode_in = alu_opcode_in;
-            gen2driv.put(trans);    
+            if(!placeholder.randomize()) $fatal("Gen:: trans randomization failed");
+            placeholder.display("[Generator]");
+            placeholder.alu_opcode_in = alu_opcode_in;
+            gen2driv.put(placeholder);    
     end
 
     endtask

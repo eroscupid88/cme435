@@ -1,7 +1,8 @@
+import lab3_pkg::*;
 class generator;
 
 //  declare transaction class
-    transaction trans;
+    a_bigger_than_b_constraints trans;
     //repeat count, to specify number of items to generate
     int repeat_count;
 

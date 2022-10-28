@@ -1,12 +1,19 @@
-class test_sanity_check;
+program test_sanity_check(intf i_intf);
+import lab3_pkg::*;
   environment env;
-
-  
-  function new (environment env);
-    this.env =env;
+    transaction trans;
+  initial begin
+    trans = new();
+    env = new(i_intf);
+    env.gen.placeholder = trans;
     env.gen.repeat_count = 10;
-    env.gen.alu_opcode_in = 15;
-    $display("[sanity check testing]: start of testcase(s) at %0d",$time);
-  endfunction
+    env.gen.alu_opcode_in = 0;
 
-endclass
+    $display("[Sanity Check]: start of testcase(s) at %0d",$time);
+    env.run();
+  end
+
+  final
+    $display("[Sanity Check]: End of testcase(s) at %d",$time);
+endprogram
+
