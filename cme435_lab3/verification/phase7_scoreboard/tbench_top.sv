@@ -1,5 +1,4 @@
 `include "interface.sv"
-`include "transaction.sv"
 `include "driver.sv"
 `include "monitor.sv"
 `include "scoreboard.sv"
@@ -28,7 +27,8 @@ module tbench_top;
   intf i_intf(.*);
   
   // create testcase instance where interface handle is passed to test as an argument
-  testbench test(.*);
+  // testbench test(.*);
+  test_sanity_check test(.*);
 
   
   // create DUT instance where interface signals are connected to the DUT ports

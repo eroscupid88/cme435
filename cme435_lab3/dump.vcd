@@ -1,0 +1,34 @@
+$date
+	Fri Oct 28 18:28:06 2022
+$end
+$version
+	QuestaSim Version 2020.1_1
+$end
+$timescale
+	1ns
+$end
+
+$scope module tbench_top $end
+
+$scope module test $end
+$upscope $end
+
+$scope module dut $end
+
+$scope module alu_core $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$scope begin lab3_pkg $end
+$upscope $end
+
+$scope begin tbench_top_sv_unit $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+$end

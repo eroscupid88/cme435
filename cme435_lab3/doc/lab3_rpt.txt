@@ -60,6 +60,10 @@ ID:Constraints
 
 10: a * b < 255
 
+11: a = 0
+
+12: b = 0
+
 List of Test cases
 ----------------------------------------
 ID:Task	Description
