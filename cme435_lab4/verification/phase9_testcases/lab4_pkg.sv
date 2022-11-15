@@ -1,4 +1,4 @@
-package lab3_pkg;
+package lab4_pkg;
   class transaction;
     rand bit [7:0] alu_a_in;
     rand bit [7:0] alu_b_in;
@@ -10,7 +10,7 @@ package lab3_pkg;
         $display("\t%s: alu_a_in = %0d, alu_b_in = %0d",name,alu_a_in,alu_b_in);
         $display("\t%s: alu_opcode_in = %0d, alu_y_out = %0d, alu_co_out = %0d",name,alu_opcode_in,alu_y_out,alu_co_out);
     endfunction
-  endclass: transaction
+  endclass
 
   
   class a_or_b_is_255 extends transaction;
@@ -62,12 +62,7 @@ package lab3_pkg;
   class a_mutiply_b_smaller_255 extends transaction;
     constraint alu_a_in_range { alu_a_in* alu_b_in < 255;};
   endclass
- 
 
- 
-  
-  
-  
 
 endpackage
 

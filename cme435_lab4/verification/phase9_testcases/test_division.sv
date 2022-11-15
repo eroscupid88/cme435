@@ -1,5 +1,5 @@
 program test_division(intf i_intf);
-import lab3_pkg::*;
+import lab4_pkg::*;
   environment env;
   a_or_b_is_0 trans;
   // a_mutiply_b_smaller_255 trans;

@@ -1,5 +1,5 @@
 program test_A_equal_B(intf i_intf);
-import lab3_pkg::*;
+import lab4_pkg::*;
   environment env;
   a_and_b_is_equal_0 trans;
   // a_mutiply_b_smaller_255 trans;

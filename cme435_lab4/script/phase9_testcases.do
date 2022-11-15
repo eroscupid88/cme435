@@ -9,7 +9,7 @@ if {! [file exists work]} {
 vmap work work
 vlog ./dut/*.sv +incdir+"./dut"
 vlog ./dut/*.svp +incdir+"./dut"
-vlog ./verification/phase9_testcases/lab3_pkg.sv +incdir+"./verification/phase9_testcases"
+vlog ./verification/phase9_testcases/lab4_pkg.sv +incdir+"./verification/phase9_testcases"
 vlog ./verification/phase9_testcases/tbench_top.sv +incdir+"./verification/phase9_testcases"
 vsim $tbench_top
 run -all

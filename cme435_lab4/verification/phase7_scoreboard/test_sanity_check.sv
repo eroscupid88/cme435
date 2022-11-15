@@ -1,5 +1,5 @@
 program test_sanity_check(intf i_intf);
-import lab3_pkg::*;
+import lab4_pkg::*;
   environment env;
   transaction trans;
   initial begin

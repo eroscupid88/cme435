@@ -1,5 +1,5 @@
 program test_addition(intf i_intf);
-  import lab3_pkg::*;
+  import lab4_pkg::*;
   environment env;
   a_is_equal_b_255 trans;
   // a_mutiply_b_smaller_255 trans;

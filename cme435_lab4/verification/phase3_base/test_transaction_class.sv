@@ -1,5 +1,5 @@
 program test_transaction_class;
-    import lab3_pkg::*;
+    import lab4_pkg::*;
 
     a_bigger_than_b_constraints trans;
     a_smaller_than_b_constraints trans1;

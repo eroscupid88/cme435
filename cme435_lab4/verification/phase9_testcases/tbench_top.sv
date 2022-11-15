@@ -55,9 +55,9 @@ initial
   // uncomment wanted testcase
 
 
-  test_sanity_check test(.*);
+  // test_sanity_check test(.*);
   // test_addition test(.*);
-  // test_addition_overflow test(.*);
+  test_addition_overflow test(.*);
   // test_subtraction_overflow test(.*);
   // test_subtraction test1(.*);
   // test_multiplication test2(.*);

@@ -1,5 +1,5 @@
 program test_addition_overflow(intf i_intf);
-  import lab3_pkg::*;
+  import lab4_pkg::*;
   environment env;
   a_b_bigger_255 trans;
   // a_mutiply_b_smaller_255 trans;

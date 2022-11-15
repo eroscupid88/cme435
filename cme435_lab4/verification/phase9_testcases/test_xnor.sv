@@ -1,5 +1,5 @@
 program test_xnor(intf i_intf);
-import lab3_pkg::*;
+import lab4_pkg::*;
   environment env;
   transaction trans;
   // a_mutiply_b_smaller_255 trans;

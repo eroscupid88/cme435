@@ -1,4 +1,4 @@
-package lab3_pkg;
+package lab4_pkg;
   class transaction;
     rand bit [7:0] alu_a_in;
     rand bit [7:0] alu_b_in;

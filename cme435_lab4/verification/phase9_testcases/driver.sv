@@ -1,4 +1,5 @@
-import lab3_pkg::*;
+
+import lab4_pkg::*;
 class driver;
     virtual intf vif;
 

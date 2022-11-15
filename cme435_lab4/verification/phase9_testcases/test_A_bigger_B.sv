@@ -1,5 +1,5 @@
 program test_A_bigger_B(intf i_intf);
-import lab3_pkg::*;
+  import lab4_pkg::*;
   environment env;
   a_is_equal_b_255 trans;
   // a_mutiply_b_smaller_255 trans;
@@ -15,9 +15,8 @@ import lab3_pkg::*;
   // a_is_equal_b_255 trans;
   // a_is_equal_b_255 trans;
   // a_or_b_is_255 trans;
-  class  extends transaction;
-    constraint alu_a_in_range { alu_a_in* alu_b_in < 255;};
-  endclass
+
+
   initial begin
     trans = new();
     env = new(i_intf);

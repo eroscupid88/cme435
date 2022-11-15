@@ -1,4 +1,4 @@
-import lab3_pkg::*;
+import lab4_pkg::*;
 class generator;
     
 //  declare transaction class
