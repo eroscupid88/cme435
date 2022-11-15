@@ -1,0 +1,122 @@
+List of Design Features
+----------------------------------------
+ID:Design Feature
+----------------------------------------
+1: addition: add 2 8-bits inputs together , output 8-bits and carry out flag 
+
+2: subtraction: subtraction 2 8-bits inputs , output 8-bits and carry out flag (for negative)
+
+3: multiplication: multiply 2 8-bits inputs together , output 8-bits or 16-bits with carry out flag on
+
+4: division: devide 2 8-bits inputs, return 0 if a < b or b = 0 , return integer round down if a > b
+
+5: shift left: shift 1 bit to the left of input a
+
+6: shift left: shift 1 bit to the right of input a
+
+7: rotate left: shift 1 bit of input a to the left of input a and plus 1 if most signification bit of a is 1
+
+8: rotate right: shift 1 bit of input a to the right of input a and plus 128 if least signification bit of a is 1
+
+9: "and" operation of 2 inputs a and b
+
+10: "or" operation of 2 inputs a and b
+
+11: "xor" operation of 2 inputs a and b
+
+12: "nor" operation of 2 inputs a and b
+
+13: "nand" operation of 2 inputs a and b
+
+14: "xnor" operation of 2 inputs a and b
+
+15: if a > b, output is 1, otherwise output is 0
+
+16: if a = b, output is 1, otherwise output is 0
+
+
+
+List of Constraints
+----------------------------------------
+ID:Constraints
+----------------------------------------
+1:  a or b equal to 255
+
+2: both a and b equal to 255
+
+3: a or b equal to 0
+
+4: both a and b equal to 0
+
+5: a + b > 255
+
+6: a > b
+
+7: a < b
+
+8: a or b is odd
+
+9: a or b is even
+
+10: a * b < 255
+
+11: a = 0
+
+12: b = 0
+
+List of Test cases
+----------------------------------------
+ID:Task	Description
+----------------------------------------
+1:reset_test:
+(Add a short description of this test case here.)
+
+2:sanity_check
+check the connection of the test bench and dut, print out error if there is any
+
+3: addtion test: test if output = a + b and if a + b < 255 carry out is 0
+
+4: subtraction test: test if output = a - b and if a > b, carry out is 0
+
+5: multiplication test: test if output = a * b and if a * b > 255 carry out is 1 otherwise 0
+
+6: division test: test if output = integer round down of (a \ b) and if a < b or b=0 output is 0
+
+7: shift left test: test if output = a << 1 && 255 
+
+8: shift right test: test if output = a >> 1 && 255
+
+9: rotate left test: test if output = a << 1 if a[7] = 0 otherwise output = (a << 1) + 1
+
+10: rotate right test: test if output = a >> 1 if a[0] = 0 otherwise output = (a >> 1) + 128
+
+11: and test: test if output  = input a &  input b
+
+12: or test: test if output  = input a | input b
+
+13: xor test: test if output  = ( input a ^  input b)
+
+14: nor test: test if output  = ~( input a | input b)
+
+15: nand test: test if output  = ~( input a &  input b)
+
+16: xnor test: test if output  = ~( input a ^  input b)
+
+17: A > B test: test if output  = ( input a >  input b) = 1
+
+18: A = B test: test if output  = ( input a =  input b) = 1
+
+19: addtion with overflow test: test if output = a + b and if a + b > 255 carry out is 1
+
+20: subtraction with overflow test: test if output = a - b and if a < b, carry out is 1 
+
+
+
+Embedded Bugs
+----------------------------------------
+ID:Description
+----------------------------------------
+1: In A bigger B mode , if input a = input b = 255, output suppose to be 0 (output actually = 1) 
+
+2: In A equal B mode , if input a > input b -> out put alu_co_out = 1 instead of 0
+
