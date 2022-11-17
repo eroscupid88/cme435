@@ -1,30 +1,33 @@
-class environment;
+class environment#(type T = transaction);
   
   // virtual interface
   virtual intf vif;
 
-  driver driv;
+  driver #(T) driv;
 
-  monitor mon;
+  monitor #(T)mon;
   
-  generator gen;
+  generator #(T)gen;
 
   mailbox gen2driv;
 
-  scoreboard scb;
+  scoreboard #(T)scb;
 
   mailbox mon2scb;
+
+  coverage #(T) co;
 
   // constructor
   function new(virtual intf vif);
     // get the interface from test
     this.vif = vif;
-    gen2driv = new();
-    mon2scb = new();
-    gen = new(gen2driv);
-    driv = new(vif.driv_intf, gen2driv);
-    mon = new(vif.mon_intf,mon2scb);
-    scb = new(mon2scb);
+    this.gen2driv = new();
+    this.mon2scb = new();
+    this.co = new();
+    this.gen = new(gen2driv);
+    this.driv = new(vif.driv_intf, gen2driv);
+    this.mon = new(vif.mon_intf,mon2scb,co);
+    this.scb = new(mon2scb,vif.mon_intf);
 
   
   endfunction
@@ -45,7 +48,6 @@ class environment;
     wait(gen.ended.triggered);
     wait(gen.repeat_count == driv.no_transactions);
     wait(gen.repeat_count == scb.no_transactions);
-    // disable fork;
     $display("[Environment]: End of test() at %0d",$time);
   endtask
 
@@ -53,6 +55,14 @@ class environment;
     $display("[Environment]: Start of post_test() at %0d",$time);
     $display("[Environment]: End of post_test() at %0d",$time);
     $display("[Sanity check]: \t************************There are %0d errors**********************",scb.no_errors);
+    $display("[Functional Coverage]***************** \n\t\tCoverage for input_data_coverage group= %0.2f %%",co.input_data_coverage.get_inst_coverage());
+    $display("\n\t\tCoverage for input_alu_in_toggle group= %0.2f %%",co.input_alu_in_toggle.get_inst_coverage());
+    $display("\n\t\tCoverage for transition_cg group= %0.2f %%",co.transition_cg.get_inst_coverage());
+    $display("\n\t\tCoverage for cg_reset group= %0.2f %%",co.cg_reset.get_inst_coverage());
+    $display("\n\t\tCoverage for cg_min_max_value group= %0.2f %%",co.cg_min_max_value.get_inst_coverage());
+    $display("\n\t\tCoverage for cg_alu_co_out group= %0.2f %%",co.cg_alu_co_out.get_inst_coverage());
+    
+    
   endtask
 
   task reset;

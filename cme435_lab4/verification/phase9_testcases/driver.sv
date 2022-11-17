@@ -1,10 +1,7 @@
-
 import lab4_pkg::*;
-class driver;
+class driver #(type T = transaction);
     virtual intf vif;
-
     int no_transactions;
-
     mailbox gen2driv;
     function new(virtual intf vif, mailbox gen2driv);
         this.gen2driv = gen2driv;
@@ -13,7 +10,8 @@ class driver;
 
     task main;
         forever begin
-            transaction trans;
+            T trans;
+            trans = new();
             gen2driv.get(trans);
             @(posedge vif.clk);
             vif.alu_a_in <= trans.alu_a_in;

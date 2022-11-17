@@ -42,6 +42,9 @@ switch ($phase_no)
   case 'phase7':
     set phase_name = scoreboard
     breaksw
+  case 'phase8':
+    set phase_name = fx_coverage
+    breaksw
   case 'phase9':
     set phase_name = testcases
     breaksw
@@ -57,6 +60,8 @@ if (! -d "$workdir" ) then
 else
   echo "Working directory: $workdir"
   cd "$workdir/../.."
-  vsim -c -do "script/${phase_no}_${phase_name}.do" <<eof
+  vsim -c -do "script/${phase_no}_${phase_name}.do" 
+  vcover report -details alu_fcov.ucdb -output alu_fcov.rpt 
+  vcover report -details -html alu_fcov.ucdb -output alu_fcov_html.html <<eof
 eof
 endif

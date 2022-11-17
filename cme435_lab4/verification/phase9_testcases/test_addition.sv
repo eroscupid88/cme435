@@ -1,7 +1,6 @@
 program test_addition(intf i_intf);
   import lab4_pkg::*;
-  environment env;
-  a_is_equal_b_255 trans;
+  environment #(transaction)env;
   // a_mutiply_b_smaller_255 trans;
   // a_or_b_odd trans;
   // a_or_b_even trans;
@@ -16,12 +15,8 @@ program test_addition(intf i_intf);
   // a_is_equal_b_255 trans;
   // a_or_b_is_255 trans;
   initial begin
-    env = new(i_intf);
-    trans = new();
-    env.gen.placeholder = trans;
-    env.gen.repeat_count = 10;
-    env.gen.alu_opcode_in = 0;
-
+    env = new(i_intf); 
+    env.gen.repeat_count = 10000;
     $display("[Test Addition]: start of testcase(s) at %0d",$time);
     env.run();
   end

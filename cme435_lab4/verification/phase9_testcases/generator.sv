@@ -1,8 +1,8 @@
 import lab4_pkg::*;
-class generator;
+class generator #(type T = transaction);
 
 //  declare transaction class
-    transaction placeholder,trans_copy;
+    rand T placeholder;
     //repeat count, to specify number of items to generate
     int repeat_count;
 
@@ -14,19 +14,17 @@ class generator;
 
     mailbox gen2driv;
 
-    function new(mailbox gen2driv);
-        placeholder = new();
+    function new(mailbox gen2driv); 
         this.gen2driv = gen2driv;
     endfunction
 
     //main task to generate (create and randomize) transaction packets
     task main();
         repeat (repeat_count) begin
+            placeholder = new();
             if(!placeholder.randomize()) $fatal("Gen:: trans randomization failed");
             placeholder.display("[Generator]");
-            placeholder.alu_opcode_in = alu_opcode_in;
-            trans_copy = new placeholder;
-            gen2driv.put(trans_copy);
+            gen2driv.put(placeholder);
     end
     -> ended;
 

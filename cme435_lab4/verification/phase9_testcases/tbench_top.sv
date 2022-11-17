@@ -46,6 +46,8 @@ initial
   initial begin
     reset = 1;
     #6 reset = 0;
+    #100 reset = 1;
+    #200 reset = 0;
   end
   
   // create interface instance to connect DUT and testcase
@@ -55,9 +57,9 @@ initial
   // uncomment wanted testcase
 
 
-  // test_sanity_check test(.*);
+  test_sanity_check test(.*);
   // test_addition test(.*);
-  test_addition_overflow test(.*);
+  // test_addition_overflow test(.*);
   // test_subtraction_overflow test(.*);
   // test_subtraction test1(.*);
   // test_multiplication test2(.*);

@@ -1,5 +1,5 @@
 $date
-	Tue Nov 15 12:46:50 2022
+	Wed Nov 16 23:02:31 2022
 $end
 $version
 	QuestaSim Version 2020.1_1
@@ -18,6 +18,9 @@ $scope module dut $end
 $scope module alu_core $end
 $upscope $end
 $upscope $end
+$upscope $end
+
+$scope begin globals $end
 $upscope $end
 
 $scope begin lab4_pkg $end

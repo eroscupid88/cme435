@@ -1,13 +1,9 @@
 program test_sanity_check(intf i_intf);
-import lab3_pkg::*;
-  environment env;
-  transaction trans;
+import lab4_pkg::*;
+  environment #(transaction) env;
   initial begin
-    trans = new();
     env = new(i_intf);
-    env.gen.placeholder = trans;
-    env.gen.repeat_count = 10;
-    env.gen.alu_opcode_in = 0;
+    env.gen.repeat_count = 50000;
     $display("[sanity check]: \t\tStart sanity check");
     $display("[Sanity Check]: start of testcase(s) at %0d",$time);
     env.run();

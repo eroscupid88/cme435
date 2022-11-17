@@ -5,6 +5,7 @@
 `include "generator.sv"
 `include "environment.sv"
 `include "../../dut/dut_top.sv"
+`include "globals.sv"
 `include "test_sanity_check.sv"
 `include "testbench.sv"
 
@@ -21,6 +22,8 @@ module tbench_top;
   initial begin
     reset = 1;
     #6 reset = 0;
+    #100 reset = 1;
+    #200 reset = 0;
   end
   
   // create interface instance to connect DUT and testcase
