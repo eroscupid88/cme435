@@ -1,0 +1,215 @@
+# do script/phase7_scoreboard.do
+# tbench_top
+# QuestaSim-64 vmap 2020.1_1 Lib Mapping Utility 2020.03 Mar  4 2020
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:28:04 on Oct 28,2022
+# vlog ./dut/dut_top.sv "+incdir+"./dut"" 
+# -- Compiling module dut_top
+# 
+# Top level modules:
+# 	dut_top
+# End time: 18:28:04 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:28:04 on Oct 28,2022
+# vlog ./dut/alu.svp "+incdir+"./dut"" 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 18:28:04 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2020.1_1 Compiler 2020.03 Mar  4 2020
+# Start time: 18:28:04 on Oct 28,2022
+# vlog ./verification/phase7_scoreboard/tbench_top.sv "+incdir+"./verification/phase7_scoreboard"" 
+# -- Compiling interface intf
+# -- Compiling package tbench_top_sv_unit
+# -- Importing package lab3_pkg
+# -- Compiling module dut_top
+# -- Compiling program test_sanity_check
+# -- Compiling program testbench
+# -- Compiling module tbench_top
+# 
+# Top level modules:
+# 	testbench
+# 	tbench_top
+# End time: 18:28:05 on Oct 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim tbench_top 
+# Start time: 18:28:05 on Oct 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  Questa Sim-64
+# //  Version 2020.1_1 linux_x86_64 Mar  4 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.lab3_pkg(fast)
+# Loading work.tbench_top_sv_unit(fast)
+# Loading work.tbench_top(fast)
+# Loading work.test_sanity_check(fast)
+# Loading work.dut_top(fast)
+# Loading work.intf(fast)
+# ** Warning: (vsim-8637) A modport ('driv_intf') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /tbench_top_sv_unit File: ./verification/phase7_scoreboard/environment.sv Line: 25
+# ** Warning: (vsim-8637) A modport ('mon_intf') should not be used in a hierarchical path.
+#    Time: 0 ns  Iteration: 0  Region: /tbench_top_sv_unit File: ./verification/phase7_scoreboard/environment.sv Line: 26
+# [sanity check]: 		Start sanity check
+# [Sanity Check]: start of testcase(s) at 0
+# [Environment]: Start of run() at 0
+# [Environment]: Start of pre_test() at 0
+# [Environment]: Reset started at 0
+# [Environment]: Reset ended at 6
+# [Environment]: End of pre_test() at 6
+# [Environment]: Start of test() at 6
+# ----------------------------
+# 	[Generator]: alu_a_in = 102, alu_b_in = 249
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 244, alu_b_in = 156
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 133, alu_b_in = 120
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 158, alu_b_in = 122
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 25, alu_b_in = 123
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 97, alu_b_in = 46
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 238, alu_b_in = 171
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 89, alu_b_in = 224
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 70, alu_b_in = 216
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Generator]: alu_a_in = 129, alu_b_in = 254
+# 	[Generator]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Driver]: alu_a_in = 102, alu_b_in = 249
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 102, alu_b_in = 249
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 95, alu_co_out = 1
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 102, alu_b_in = 249
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 95, alu_co_out = 1
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 244, alu_b_in = 156
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 244, alu_b_in = 156
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 144, alu_co_out = 1
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 244, alu_b_in = 156
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 144, alu_co_out = 1
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 133, alu_b_in = 120
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 133, alu_b_in = 120
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 253, alu_co_out = 0
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 133, alu_b_in = 120
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 253, alu_co_out = 0
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 158, alu_b_in = 122
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 158, alu_b_in = 122
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 24, alu_co_out = 1
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 158, alu_b_in = 122
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 24, alu_co_out = 1
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 25, alu_b_in = 123
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 25, alu_b_in = 123
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 148, alu_co_out = 0
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 25, alu_b_in = 123
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 148, alu_co_out = 0
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 97, alu_b_in = 46
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 97, alu_b_in = 46
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 143, alu_co_out = 0
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 97, alu_b_in = 46
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 143, alu_co_out = 0
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 238, alu_b_in = 171
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 238, alu_b_in = 171
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 153, alu_co_out = 1
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 238, alu_b_in = 171
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 153, alu_co_out = 1
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 89, alu_b_in = 224
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 89, alu_b_in = 224
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 57, alu_co_out = 1
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 89, alu_b_in = 224
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 57, alu_co_out = 1
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 70, alu_b_in = 216
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 70, alu_b_in = 216
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 30, alu_co_out = 1
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 70, alu_b_in = 216
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 30, alu_co_out = 1
+# [Scoreboard]: Pass
+# ----------------------------
+# 	[Driver]: alu_a_in = 129, alu_b_in = 254
+# 	[Driver]: alu_opcode_in = 0, alu_y_out = 0, alu_co_out = 0
+# ----------------------------
+# 	[Monitor]: alu_a_in = 129, alu_b_in = 254
+# 	[Monitor]: alu_opcode_in = 0, alu_y_out = 127, alu_co_out = 1
+# ----------------------------
+# 	[Scoreboard]: alu_a_in = 129, alu_b_in = 254
+# 	[Scoreboard]: alu_opcode_in = 0, alu_y_out = 127, alu_co_out = 1
+# [Scoreboard]: Pass
+# [Environment]: End of test() at 215
+# [Environment]: Start of post_test() at 215
+# [Environment]: End of post_test() at 215
+# [Sanity check]: 	************************There are 0 errors**********************
+# [Environment]: End of run() at 215
+# ** Note: $finish    : ./verification/phase7_scoreboard/environment.sv(76)
+#    Time: 215 ns  Iteration: 1  Instance: /tbench_top/test
+# [Sanity Check]: End of testcase(s) at                  215
+# End time: 18:28:06 on Oct 28,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
