@@ -114,7 +114,7 @@ package lab4_pkg;
           bins med_high = {[51:100]};
           bins high_low = {[100:200]};
           bins high_med = {[150:200]};
-          bins high_hight = {[200:255]};
+          bins high_hight = {[200:254]};
         
         }
         coverage_transition :coverpoint trans.alu_opcode_in iff(reset ==0){

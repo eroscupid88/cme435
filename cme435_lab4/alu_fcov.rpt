@@ -81,7 +81,7 @@ Covergroup                                             Metric       Goal       B
         bin med_high                                     9674          3          -    Covered              
         bin high_low                                    20085          3          -    Covered              
         bin high_med                                    10143          3          -    Covered              
-        bin high_hight                                  10738          3          -    Covered              
+        bin high_hight                                  10562          3          -    Covered              
     Coverpoint coverage_transition                    100.00%        100          -    Covered              
         covered/total bins:                               256        256          -                      
         missing/total bins:                                 0        256          -                      
@@ -348,104 +348,104 @@ Covergroup                                             Metric       Goal       B
         % Hit:                                        100.00%        100          -                      
         Auto, Default and User Defined Bins:
             bin <auto[A_EQL_B],high_hight,high_hight> 
-                                                          147          3          -    Covered              
+                                                          145          3          -    Covered              
             bin <auto[A_COMP_B],high_hight,high_hight> 
                                                           172          3          -    Covered              
-            bin <auto[NAND],high_hight,high_hight>        155          3          -    Covered              
-            bin <auto[NOR],high_hight,high_hight>         287          3          -    Covered              
-            bin <auto[XOR],high_hight,high_hight>         169          3          -    Covered              
-            bin <auto[OR],high_hight,high_hight>          166          3          -    Covered              
-            bin <auto[AND],high_hight,high_hight>         141          3          -    Covered              
-            bin <auto[RR],high_hight,high_hight>          130          3          -    Covered              
-            bin <auto[RL],high_hight,high_hight>          178          3          -    Covered              
+            bin <auto[NAND],high_hight,high_hight>        147          3          -    Covered              
+            bin <auto[NOR],high_hight,high_hight>         278          3          -    Covered              
+            bin <auto[XOR],high_hight,high_hight>         163          3          -    Covered              
+            bin <auto[OR],high_hight,high_hight>          161          3          -    Covered              
+            bin <auto[AND],high_hight,high_hight>         138          3          -    Covered              
+            bin <auto[RR],high_hight,high_hight>          127          3          -    Covered              
+            bin <auto[RL],high_hight,high_hight>          174          3          -    Covered              
             bin <auto[LSR],high_hight,high_hight>         126          3          -    Covered              
-            bin <auto[LSL],high_hight,high_hight>         148          3          -    Covered              
-            bin <auto[DIV],high_hight,high_hight>         132          3          -    Covered              
-            bin <auto[MUL],high_hight,high_hight>         169          3          -    Covered              
-            bin <auto[SUB],high_hight,high_hight>         155          3          -    Covered              
-            bin <auto[ADD],high_hight,high_hight>         152          3          -    Covered              
+            bin <auto[LSL],high_hight,high_hight>         145          3          -    Covered              
+            bin <auto[DIV],high_hight,high_hight>         131          3          -    Covered              
+            bin <auto[MUL],high_hight,high_hight>         168          3          -    Covered              
+            bin <auto[SUB],high_hight,high_hight>         154          3          -    Covered              
+            bin <auto[ADD],high_hight,high_hight>         147          3          -    Covered              
             bin <auto[A_EQL_B],high_med,high_hight> 
                                                           141          3          -    Covered              
             bin <auto[A_COMP_B],high_med,high_hight> 
-                                                          111          3          -    Covered              
-            bin <auto[NAND],high_med,high_hight>          134          3          -    Covered              
-            bin <auto[NOR],high_med,high_hight>           276          3          -    Covered              
+                                                          110          3          -    Covered              
+            bin <auto[NAND],high_med,high_hight>          132          3          -    Covered              
+            bin <auto[NOR],high_med,high_hight>           275          3          -    Covered              
             bin <auto[XOR],high_med,high_hight>           147          3          -    Covered              
-            bin <auto[OR],high_med,high_hight>            121          3          -    Covered              
-            bin <auto[AND],high_med,high_hight>           135          3          -    Covered              
-            bin <auto[RR],high_med,high_hight>            121          3          -    Covered              
-            bin <auto[RL],high_med,high_hight>            126          3          -    Covered              
-            bin <auto[LSR],high_med,high_hight>           118          3          -    Covered              
-            bin <auto[LSL],high_med,high_hight>           136          3          -    Covered              
-            bin <auto[DIV],high_med,high_hight>           138          3          -    Covered              
-            bin <auto[MUL],high_med,high_hight>           139          3          -    Covered              
-            bin <auto[SUB],high_med,high_hight>           127          3          -    Covered              
+            bin <auto[OR],high_med,high_hight>            120          3          -    Covered              
+            bin <auto[AND],high_med,high_hight>           131          3          -    Covered              
+            bin <auto[RR],high_med,high_hight>            120          3          -    Covered              
+            bin <auto[RL],high_med,high_hight>            124          3          -    Covered              
+            bin <auto[LSR],high_med,high_hight>           117          3          -    Covered              
+            bin <auto[LSL],high_med,high_hight>           132          3          -    Covered              
+            bin <auto[DIV],high_med,high_hight>           136          3          -    Covered              
+            bin <auto[MUL],high_med,high_hight>           136          3          -    Covered              
+            bin <auto[SUB],high_med,high_hight>           125          3          -    Covered              
             bin <auto[ADD],high_med,high_hight>           128          3          -    Covered              
             bin <auto[A_EQL_B],high_low,high_hight> 
-                                                          270          3          -    Covered              
+                                                          269          3          -    Covered              
             bin <auto[A_COMP_B],high_low,high_hight> 
-                                                          241          3          -    Covered              
-            bin <auto[NAND],high_low,high_hight>          256          3          -    Covered              
-            bin <auto[NOR],high_low,high_hight>           553          3          -    Covered              
-            bin <auto[XOR],high_low,high_hight>           299          3          -    Covered              
-            bin <auto[OR],high_low,high_hight>            253          3          -    Covered              
-            bin <auto[AND],high_low,high_hight>           276          3          -    Covered              
-            bin <auto[RR],high_low,high_hight>            252          3          -    Covered              
-            bin <auto[RL],high_low,high_hight>            255          3          -    Covered              
-            bin <auto[LSR],high_low,high_hight>           251          3          -    Covered              
-            bin <auto[LSL],high_low,high_hight>           259          3          -    Covered              
-            bin <auto[DIV],high_low,high_hight>           286          3          -    Covered              
-            bin <auto[MUL],high_low,high_hight>           264          3          -    Covered              
-            bin <auto[SUB],high_low,high_hight>           250          3          -    Covered              
-            bin <auto[ADD],high_low,high_hight>           258          3          -    Covered              
+                                                          238          3          -    Covered              
+            bin <auto[NAND],high_low,high_hight>          251          3          -    Covered              
+            bin <auto[NOR],high_low,high_hight>           550          3          -    Covered              
+            bin <auto[XOR],high_low,high_hight>           294          3          -    Covered              
+            bin <auto[OR],high_low,high_hight>            249          3          -    Covered              
+            bin <auto[AND],high_low,high_hight>           268          3          -    Covered              
+            bin <auto[RR],high_low,high_hight>            249          3          -    Covered              
+            bin <auto[RL],high_low,high_hight>            250          3          -    Covered              
+            bin <auto[LSR],high_low,high_hight>           248          3          -    Covered              
+            bin <auto[LSL],high_low,high_hight>           255          3          -    Covered              
+            bin <auto[DIV],high_low,high_hight>           283          3          -    Covered              
+            bin <auto[MUL],high_low,high_hight>           257          3          -    Covered              
+            bin <auto[SUB],high_low,high_hight>           246          3          -    Covered              
+            bin <auto[ADD],high_low,high_hight>           256          3          -    Covered              
             bin <auto[A_EQL_B],med_high,high_hight> 
-                                                          125          3          -    Covered              
+                                                          122          3          -    Covered              
             bin <auto[A_COMP_B],med_high,high_hight> 
                                                           126          3          -    Covered              
-            bin <auto[NAND],med_high,high_hight>          132          3          -    Covered              
-            bin <auto[NOR],med_high,high_hight>           266          3          -    Covered              
-            bin <auto[XOR],med_high,high_hight>           146          3          -    Covered              
-            bin <auto[OR],med_high,high_hight>            149          3          -    Covered              
-            bin <auto[AND],med_high,high_hight>           147          3          -    Covered              
-            bin <auto[RR],med_high,high_hight>            128          3          -    Covered              
-            bin <auto[RL],med_high,high_hight>            120          3          -    Covered              
-            bin <auto[LSR],med_high,high_hight>           118          3          -    Covered              
+            bin <auto[NAND],med_high,high_hight>          130          3          -    Covered              
+            bin <auto[NOR],med_high,high_hight>           262          3          -    Covered              
+            bin <auto[XOR],med_high,high_hight>           144          3          -    Covered              
+            bin <auto[OR],med_high,high_hight>            147          3          -    Covered              
+            bin <auto[AND],med_high,high_hight>           145          3          -    Covered              
+            bin <auto[RR],med_high,high_hight>            125          3          -    Covered              
+            bin <auto[RL],med_high,high_hight>            117          3          -    Covered              
+            bin <auto[LSR],med_high,high_hight>           116          3          -    Covered              
             bin <auto[LSL],med_high,high_hight>           125          3          -    Covered              
-            bin <auto[DIV],med_high,high_hight>           133          3          -    Covered              
-            bin <auto[MUL],med_high,high_hight>           141          3          -    Covered              
-            bin <auto[SUB],med_high,high_hight>           119          3          -    Covered              
-            bin <auto[ADD],med_high,high_hight>            94          3          -    Covered              
+            bin <auto[DIV],med_high,high_hight>           131          3          -    Covered              
+            bin <auto[MUL],med_high,high_hight>           138          3          -    Covered              
+            bin <auto[SUB],med_high,high_hight>           117          3          -    Covered              
+            bin <auto[ADD],med_high,high_hight>            91          3          -    Covered              
             bin <auto[A_EQL_B],med_low,high_hight>        116          3          -    Covered              
             bin <auto[A_COMP_B],med_low,high_hight> 
-                                                          111          3          -    Covered              
-            bin <auto[NAND],med_low,high_hight>            95          3          -    Covered              
-            bin <auto[NOR],med_low,high_hight>            235          3          -    Covered              
+                                                          107          3          -    Covered              
+            bin <auto[NAND],med_low,high_hight>            92          3          -    Covered              
+            bin <auto[NOR],med_low,high_hight>            233          3          -    Covered              
             bin <auto[XOR],med_low,high_hight>             91          3          -    Covered              
-            bin <auto[OR],med_low,high_hight>             125          3          -    Covered              
-            bin <auto[AND],med_low,high_hight>            116          3          -    Covered              
+            bin <auto[OR],med_low,high_hight>             123          3          -    Covered              
+            bin <auto[AND],med_low,high_hight>            115          3          -    Covered              
             bin <auto[RR],med_low,high_hight>             105          3          -    Covered              
-            bin <auto[RL],med_low,high_hight>             103          3          -    Covered              
-            bin <auto[LSR],med_low,high_hight>            117          3          -    Covered              
-            bin <auto[LSL],med_low,high_hight>             90          3          -    Covered              
-            bin <auto[DIV],med_low,high_hight>            118          3          -    Covered              
-            bin <auto[MUL],med_low,high_hight>             98          3          -    Covered              
-            bin <auto[SUB],med_low,high_hight>            126          3          -    Covered              
-            bin <auto[ADD],med_low,high_hight>            111          3          -    Covered              
+            bin <auto[RL],med_low,high_hight>             100          3          -    Covered              
+            bin <auto[LSR],med_low,high_hight>            115          3          -    Covered              
+            bin <auto[LSL],med_low,high_hight>             89          3          -    Covered              
+            bin <auto[DIV],med_low,high_hight>            115          3          -    Covered              
+            bin <auto[MUL],med_low,high_hight>             95          3          -    Covered              
+            bin <auto[SUB],med_low,high_hight>            125          3          -    Covered              
+            bin <auto[ADD],med_low,high_hight>            109          3          -    Covered              
             bin <auto[A_EQL_B],low,high_hight>             29          3          -    Covered              
-            bin <auto[A_COMP_B],low,high_hight>            22          3          -    Covered              
-            bin <auto[NAND],low,high_hight>                27          3          -    Covered              
-            bin <auto[NOR],low,high_hight>                 46          3          -    Covered              
+            bin <auto[A_COMP_B],low,high_hight>            21          3          -    Covered              
+            bin <auto[NAND],low,high_hight>                26          3          -    Covered              
+            bin <auto[NOR],low,high_hight>                 45          3          -    Covered              
             bin <auto[XOR],low,high_hight>                 20          3          -    Covered              
             bin <auto[OR],low,high_hight>                  32          3          -    Covered              
             bin <auto[AND],low,high_hight>                 20          3          -    Covered              
-            bin <auto[RR],low,high_hight>                  32          3          -    Covered              
-            bin <auto[RL],low,high_hight>                  24          3          -    Covered              
-            bin <auto[LSR],low,high_hight>                 25          3          -    Covered              
+            bin <auto[RR],low,high_hight>                  31          3          -    Covered              
+            bin <auto[RL],low,high_hight>                  23          3          -    Covered              
+            bin <auto[LSR],low,high_hight>                 22          3          -    Covered              
             bin <auto[LSL],low,high_hight>                 27          3          -    Covered              
             bin <auto[DIV],low,high_hight>                 23          3          -    Covered              
             bin <auto[MUL],low,high_hight>                 24          3          -    Covered              
             bin <auto[SUB],low,high_hight>                 20          3          -    Covered              
-            bin <auto[ADD],low,high_hight>                 29          3          -    Covered              
+            bin <auto[ADD],low,high_hight>                 28          3          -    Covered              
             bin <auto[A_EQL_B],high_hight,high_med> 
                                                           128          3          -    Covered              
             bin <auto[A_COMP_B],high_hight,high_med> 
@@ -1639,7 +1639,7 @@ Covergroup                                             Metric       Goal       B
         bin med_high                                     9674          3          -    Covered              
         bin high_low                                    20085          3          -    Covered              
         bin high_med                                    10143          3          -    Covered              
-        bin high_hight                                  10738          3          -    Covered              
+        bin high_hight                                  10562          3          -    Covered              
     Coverpoint coverage_transition                    100.00%        100          -    Covered              
         covered/total bins:                               256        256          -                      
         missing/total bins:                                 0        256          -                      
@@ -1906,104 +1906,104 @@ Covergroup                                             Metric       Goal       B
         % Hit:                                        100.00%        100          -                      
         Auto, Default and User Defined Bins:
             bin <auto[A_EQL_B],high_hight,high_hight> 
-                                                          147          3          -    Covered              
+                                                          145          3          -    Covered              
             bin <auto[A_COMP_B],high_hight,high_hight> 
                                                           172          3          -    Covered              
-            bin <auto[NAND],high_hight,high_hight>        155          3          -    Covered              
-            bin <auto[NOR],high_hight,high_hight>         287          3          -    Covered              
-            bin <auto[XOR],high_hight,high_hight>         169          3          -    Covered              
-            bin <auto[OR],high_hight,high_hight>          166          3          -    Covered              
-            bin <auto[AND],high_hight,high_hight>         141          3          -    Covered              
-            bin <auto[RR],high_hight,high_hight>          130          3          -    Covered              
-            bin <auto[RL],high_hight,high_hight>          178          3          -    Covered              
+            bin <auto[NAND],high_hight,high_hight>        147          3          -    Covered              
+            bin <auto[NOR],high_hight,high_hight>         278          3          -    Covered              
+            bin <auto[XOR],high_hight,high_hight>         163          3          -    Covered              
+            bin <auto[OR],high_hight,high_hight>          161          3          -    Covered              
+            bin <auto[AND],high_hight,high_hight>         138          3          -    Covered              
+            bin <auto[RR],high_hight,high_hight>          127          3          -    Covered              
+            bin <auto[RL],high_hight,high_hight>          174          3          -    Covered              
             bin <auto[LSR],high_hight,high_hight>         126          3          -    Covered              
-            bin <auto[LSL],high_hight,high_hight>         148          3          -    Covered              
-            bin <auto[DIV],high_hight,high_hight>         132          3          -    Covered              
-            bin <auto[MUL],high_hight,high_hight>         169          3          -    Covered              
-            bin <auto[SUB],high_hight,high_hight>         155          3          -    Covered              
-            bin <auto[ADD],high_hight,high_hight>         152          3          -    Covered              
+            bin <auto[LSL],high_hight,high_hight>         145          3          -    Covered              
+            bin <auto[DIV],high_hight,high_hight>         131          3          -    Covered              
+            bin <auto[MUL],high_hight,high_hight>         168          3          -    Covered              
+            bin <auto[SUB],high_hight,high_hight>         154          3          -    Covered              
+            bin <auto[ADD],high_hight,high_hight>         147          3          -    Covered              
             bin <auto[A_EQL_B],high_med,high_hight> 
                                                           141          3          -    Covered              
             bin <auto[A_COMP_B],high_med,high_hight> 
-                                                          111          3          -    Covered              
-            bin <auto[NAND],high_med,high_hight>          134          3          -    Covered              
-            bin <auto[NOR],high_med,high_hight>           276          3          -    Covered              
+                                                          110          3          -    Covered              
+            bin <auto[NAND],high_med,high_hight>          132          3          -    Covered              
+            bin <auto[NOR],high_med,high_hight>           275          3          -    Covered              
             bin <auto[XOR],high_med,high_hight>           147          3          -    Covered              
-            bin <auto[OR],high_med,high_hight>            121          3          -    Covered              
-            bin <auto[AND],high_med,high_hight>           135          3          -    Covered              
-            bin <auto[RR],high_med,high_hight>            121          3          -    Covered              
-            bin <auto[RL],high_med,high_hight>            126          3          -    Covered              
-            bin <auto[LSR],high_med,high_hight>           118          3          -    Covered              
-            bin <auto[LSL],high_med,high_hight>           136          3          -    Covered              
-            bin <auto[DIV],high_med,high_hight>           138          3          -    Covered              
-            bin <auto[MUL],high_med,high_hight>           139          3          -    Covered              
-            bin <auto[SUB],high_med,high_hight>           127          3          -    Covered              
+            bin <auto[OR],high_med,high_hight>            120          3          -    Covered              
+            bin <auto[AND],high_med,high_hight>           131          3          -    Covered              
+            bin <auto[RR],high_med,high_hight>            120          3          -    Covered              
+            bin <auto[RL],high_med,high_hight>            124          3          -    Covered              
+            bin <auto[LSR],high_med,high_hight>           117          3          -    Covered              
+            bin <auto[LSL],high_med,high_hight>           132          3          -    Covered              
+            bin <auto[DIV],high_med,high_hight>           136          3          -    Covered              
+            bin <auto[MUL],high_med,high_hight>           136          3          -    Covered              
+            bin <auto[SUB],high_med,high_hight>           125          3          -    Covered              
             bin <auto[ADD],high_med,high_hight>           128          3          -    Covered              
             bin <auto[A_EQL_B],high_low,high_hight> 
-                                                          270          3          -    Covered              
+                                                          269          3          -    Covered              
             bin <auto[A_COMP_B],high_low,high_hight> 
-                                                          241          3          -    Covered              
-            bin <auto[NAND],high_low,high_hight>          256          3          -    Covered              
-            bin <auto[NOR],high_low,high_hight>           553          3          -    Covered              
-            bin <auto[XOR],high_low,high_hight>           299          3          -    Covered              
-            bin <auto[OR],high_low,high_hight>            253          3          -    Covered              
-            bin <auto[AND],high_low,high_hight>           276          3          -    Covered              
-            bin <auto[RR],high_low,high_hight>            252          3          -    Covered              
-            bin <auto[RL],high_low,high_hight>            255          3          -    Covered              
-            bin <auto[LSR],high_low,high_hight>           251          3          -    Covered              
-            bin <auto[LSL],high_low,high_hight>           259          3          -    Covered              
-            bin <auto[DIV],high_low,high_hight>           286          3          -    Covered              
-            bin <auto[MUL],high_low,high_hight>           264          3          -    Covered              
-            bin <auto[SUB],high_low,high_hight>           250          3          -    Covered              
-            bin <auto[ADD],high_low,high_hight>           258          3          -    Covered              
+                                                          238          3          -    Covered              
+            bin <auto[NAND],high_low,high_hight>          251          3          -    Covered              
+            bin <auto[NOR],high_low,high_hight>           550          3          -    Covered              
+            bin <auto[XOR],high_low,high_hight>           294          3          -    Covered              
+            bin <auto[OR],high_low,high_hight>            249          3          -    Covered              
+            bin <auto[AND],high_low,high_hight>           268          3          -    Covered              
+            bin <auto[RR],high_low,high_hight>            249          3          -    Covered              
+            bin <auto[RL],high_low,high_hight>            250          3          -    Covered              
+            bin <auto[LSR],high_low,high_hight>           248          3          -    Covered              
+            bin <auto[LSL],high_low,high_hight>           255          3          -    Covered              
+            bin <auto[DIV],high_low,high_hight>           283          3          -    Covered              
+            bin <auto[MUL],high_low,high_hight>           257          3          -    Covered              
+            bin <auto[SUB],high_low,high_hight>           246          3          -    Covered              
+            bin <auto[ADD],high_low,high_hight>           256          3          -    Covered              
             bin <auto[A_EQL_B],med_high,high_hight> 
-                                                          125          3          -    Covered              
+                                                          122          3          -    Covered              
             bin <auto[A_COMP_B],med_high,high_hight> 
                                                           126          3          -    Covered              
-            bin <auto[NAND],med_high,high_hight>          132          3          -    Covered              
-            bin <auto[NOR],med_high,high_hight>           266          3          -    Covered              
-            bin <auto[XOR],med_high,high_hight>           146          3          -    Covered              
-            bin <auto[OR],med_high,high_hight>            149          3          -    Covered              
-            bin <auto[AND],med_high,high_hight>           147          3          -    Covered              
-            bin <auto[RR],med_high,high_hight>            128          3          -    Covered              
-            bin <auto[RL],med_high,high_hight>            120          3          -    Covered              
-            bin <auto[LSR],med_high,high_hight>           118          3          -    Covered              
+            bin <auto[NAND],med_high,high_hight>          130          3          -    Covered              
+            bin <auto[NOR],med_high,high_hight>           262          3          -    Covered              
+            bin <auto[XOR],med_high,high_hight>           144          3          -    Covered              
+            bin <auto[OR],med_high,high_hight>            147          3          -    Covered              
+            bin <auto[AND],med_high,high_hight>           145          3          -    Covered              
+            bin <auto[RR],med_high,high_hight>            125          3          -    Covered              
+            bin <auto[RL],med_high,high_hight>            117          3          -    Covered              
+            bin <auto[LSR],med_high,high_hight>           116          3          -    Covered              
             bin <auto[LSL],med_high,high_hight>           125          3          -    Covered              
-            bin <auto[DIV],med_high,high_hight>           133          3          -    Covered              
-            bin <auto[MUL],med_high,high_hight>           141          3          -    Covered              
-            bin <auto[SUB],med_high,high_hight>           119          3          -    Covered              
-            bin <auto[ADD],med_high,high_hight>            94          3          -    Covered              
+            bin <auto[DIV],med_high,high_hight>           131          3          -    Covered              
+            bin <auto[MUL],med_high,high_hight>           138          3          -    Covered              
+            bin <auto[SUB],med_high,high_hight>           117          3          -    Covered              
+            bin <auto[ADD],med_high,high_hight>            91          3          -    Covered              
             bin <auto[A_EQL_B],med_low,high_hight>        116          3          -    Covered              
             bin <auto[A_COMP_B],med_low,high_hight> 
-                                                          111          3          -    Covered              
-            bin <auto[NAND],med_low,high_hight>            95          3          -    Covered              
-            bin <auto[NOR],med_low,high_hight>            235          3          -    Covered              
+                                                          107          3          -    Covered              
+            bin <auto[NAND],med_low,high_hight>            92          3          -    Covered              
+            bin <auto[NOR],med_low,high_hight>            233          3          -    Covered              
             bin <auto[XOR],med_low,high_hight>             91          3          -    Covered              
-            bin <auto[OR],med_low,high_hight>             125          3          -    Covered              
-            bin <auto[AND],med_low,high_hight>            116          3          -    Covered              
+            bin <auto[OR],med_low,high_hight>             123          3          -    Covered              
+            bin <auto[AND],med_low,high_hight>            115          3          -    Covered              
             bin <auto[RR],med_low,high_hight>             105          3          -    Covered              
-            bin <auto[RL],med_low,high_hight>             103          3          -    Covered              
-            bin <auto[LSR],med_low,high_hight>            117          3          -    Covered              
-            bin <auto[LSL],med_low,high_hight>             90          3          -    Covered              
-            bin <auto[DIV],med_low,high_hight>            118          3          -    Covered              
-            bin <auto[MUL],med_low,high_hight>             98          3          -    Covered              
-            bin <auto[SUB],med_low,high_hight>            126          3          -    Covered              
-            bin <auto[ADD],med_low,high_hight>            111          3          -    Covered              
+            bin <auto[RL],med_low,high_hight>             100          3          -    Covered              
+            bin <auto[LSR],med_low,high_hight>            115          3          -    Covered              
+            bin <auto[LSL],med_low,high_hight>             89          3          -    Covered              
+            bin <auto[DIV],med_low,high_hight>            115          3          -    Covered              
+            bin <auto[MUL],med_low,high_hight>             95          3          -    Covered              
+            bin <auto[SUB],med_low,high_hight>            125          3          -    Covered              
+            bin <auto[ADD],med_low,high_hight>            109          3          -    Covered              
             bin <auto[A_EQL_B],low,high_hight>             29          3          -    Covered              
-            bin <auto[A_COMP_B],low,high_hight>            22          3          -    Covered              
-            bin <auto[NAND],low,high_hight>                27          3          -    Covered              
-            bin <auto[NOR],low,high_hight>                 46          3          -    Covered              
+            bin <auto[A_COMP_B],low,high_hight>            21          3          -    Covered              
+            bin <auto[NAND],low,high_hight>                26          3          -    Covered              
+            bin <auto[NOR],low,high_hight>                 45          3          -    Covered              
             bin <auto[XOR],low,high_hight>                 20          3          -    Covered              
             bin <auto[OR],low,high_hight>                  32          3          -    Covered              
             bin <auto[AND],low,high_hight>                 20          3          -    Covered              
-            bin <auto[RR],low,high_hight>                  32          3          -    Covered              
-            bin <auto[RL],low,high_hight>                  24          3          -    Covered              
-            bin <auto[LSR],low,high_hight>                 25          3          -    Covered              
+            bin <auto[RR],low,high_hight>                  31          3          -    Covered              
+            bin <auto[RL],low,high_hight>                  23          3          -    Covered              
+            bin <auto[LSR],low,high_hight>                 22          3          -    Covered              
             bin <auto[LSL],low,high_hight>                 27          3          -    Covered              
             bin <auto[DIV],low,high_hight>                 23          3          -    Covered              
             bin <auto[MUL],low,high_hight>                 24          3          -    Covered              
             bin <auto[SUB],low,high_hight>                 20          3          -    Covered              
-            bin <auto[ADD],low,high_hight>                 29          3          -    Covered              
+            bin <auto[ADD],low,high_hight>                 28          3          -    Covered              
             bin <auto[A_EQL_B],high_hight,high_med> 
                                                           128          3          -    Covered              
             bin <auto[A_COMP_B],high_hight,high_med> 
